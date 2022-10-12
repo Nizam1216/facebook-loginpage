@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-login</title>
+    <style>
+        body{
+            background-color: rgb(236, 236, 244);
+            font-size:large;
+        }
+        .container{
+            display: flex;
+        }
+        .firstsec{
+            width: 50%;
+        }
+        li{
+            text-decoration: none;
+            list-style: none;
+            padding: 10px;
+            
+        }
+        button{
+            font-size: large;
+        }
+       
+        .box {
+            margin-top: 140px;
+            margin-left:120px;
+            border: 1px solid rgb(222, 218, 218);
+            border-radius: 10px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 1px 1px rgb(220, 219, 219);
+        }
+        img{
+            width:50%;
+            margin-left: 120px;
+            margin-top: 100px;
+        }
+        h2{
+            margin-left: 160px;
+            margin-top: -80px;
+            color: rgb(128, 123, 123);
+        }
+        input{
+            height: 48px;
+            width: 400px;
+            border: 1px solid rgb(227, 219, 219);
+            border-radius: 5px;
+            font-size: large;
+        }
+        .login{
+            height: 48px;
+            width: 409px;
+            border: 1px grey;
+            border-radius: 5px;
+            background-color: rgb(83, 83, 246);
+            color: white;
+            cursor: pointer;
+        }
+        .forgot{
+            margin-left: 140px;
+            text-decoration: none;
+            color: rgb(71, 71, 255);
+        }
+        hr{
+            color:rgb(241, 234, 234) ;
+        }
+        .create{
+            height: 45px;
+            width: 200px;
+            border: 1px grey;
+            border-radius: 5px;
+            background-color: rgb(23, 231, 41);
+            color: white;
+            margin-left: 110px;
+            margin-top: 14px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        p{
+            margin-left: 170px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="firstsec">
+            
+            <img src="images/Facebook-Logo.wine.png" alt="">
+            <h2>Connect with your friends and the world<br>around you on Facebook</h2>
+        </div>
+        <div class="secondsec">
+            <div class="box">
+               <li><input type="text" placeholder="Email or phone number"></li>
+               <li><input type="password" placeholder="password"></li>
+               <li><button class="login">Log in</button></li>
+               <li><a href="https://www.facebook.com" class="forgot">Forgotten Password?</a></li>
+               <hr>
+               <button class="create">create New Account</button>
+            </div>
+            <p>Create a Page for a celebrity, brand or business.</p>
+        </div>
+    </div>
+</body>
+</html>
